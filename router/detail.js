@@ -2,7 +2,7 @@ const express =require('express');
 const requestIp = require('request-ip');
 const Joi =require('joi');
 const router=express.Router();
-const mysql=require('../mysql');
+// const mysql=require('../mysql');
 const {ObjectId} = require('mongodb');
 const {mongoConnect,getDB} = require("../mongodb");
 
