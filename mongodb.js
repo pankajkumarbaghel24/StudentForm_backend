@@ -4,7 +4,7 @@ const MongoClient = mongodb.MongoClient;
 
 
 // const url = `mongodb+srv://root:root@uniconnectnms.fadvayz.mongodb.net/?retryWrites=true&w=majority&appName=UniConnectNMS`;
-const url = process.env.MongoURL;
+const url = process.env.MongoURL || `mongodb+srv://pb416159:Pankaj24@uniconnectnms.fadvayz.mongodb.net/?retryWrites=true&w=majority&appName=UniConnectNMS`;
 
 let _db;
 const mongoConnect = (callback)=>{
