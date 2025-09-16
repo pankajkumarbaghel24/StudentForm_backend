@@ -1,6 +1,0 @@
-{
-    "db": {
-        "password": ""
-    },
-    "jwtPrivateKey": "jwtPrivateKey"
-}
